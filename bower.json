@@ -1,0 +1,28 @@
+{
+  "name": "ta-maxlength",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alexander-elgin/ta-maxlength",
+  "authors": [
+    "Alexander Elgin <sascha.elgin@gmail.com>"
+  ],
+  "description": "Define maxlength for textAngular",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.3.2",
+    "jquery": "~2.1.1",
+    "jquery-truncate-html": "*"
+  },
+  "main": "ta-maxlength.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "text-angular",
+    "textAngular",
+    "maxlength",
+    "limit"
+  ],
+  "ignore": [
+    "bower_components"
+  ]
+}
