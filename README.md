@@ -6,6 +6,11 @@ Define maxlength for [textAngular](https://github.com/fraywing/textAngular)
 
 `bower install ta-maxlength`
 
+##Dependencies
+
+ * jQuery (https://jquery.com/)
+ * jquery-truncate-html (https://github.com/alexander-elgin/jquery-truncate-html)
+
 ##Usage
 
 ###Include the module in your app
@@ -14,6 +19,6 @@ Define maxlength for [textAngular](https://github.com/fraywing/textAngular)
 
 ###View
 
-`<text-angular ng-model="model" name="your-textAngular-instance-name" ta-maxlength="5"`
+`<text-angular ng-model="model" name="your-textAngular-instance-name" ta-maxlength="5">`
 
 Note, the attribute `name` is required
