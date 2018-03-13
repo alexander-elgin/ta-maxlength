@@ -1,6 +1,8 @@
-'use strict';
+/* global $ */
+;(function () {
+    'use strict';
 
-angular
+    angular
     .module('ta-maxlength', [])
     .directive('taMaxlength', ['$timeout', 'textAngularManager', function ($timeout, textAngularManager) {
         return {
@@ -56,3 +58,4 @@ angular
             }
         };
     }]);
+}());
