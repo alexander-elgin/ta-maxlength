@@ -2,7 +2,7 @@
 
 angular
     .module('ta-maxlength', [])
-    .directive('taMaxlength', function ($timeout, textAngularManager) {
+    .directive('taMaxlength', ['$timeout', 'textAngularManager', function ($timeout, textAngularManager) {
         return {
             restrict: 'A',
             link: function ($scope, element, attrs) {
@@ -55,4 +55,4 @@ angular
                 });
             }
         };
-    });
+    }]);
