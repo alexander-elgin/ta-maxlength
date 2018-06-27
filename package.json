@@ -1,0 +1,25 @@
+{
+  "name": "ta-maxlength",
+  "version": "0.0.2",
+  "description": "Define maxlength for textAngular",
+  "main": "ta-maxlength.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-elgin/ta-maxlength.git"
+  },
+  "keywords": [
+    "text-angular",
+    "textAngular",
+    "maxlength",
+    "limit"
+  ],
+  "author": "Alexander Elgin <sascha.elgin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexander-elgin/ta-maxlength/issues"
+  },
+  "homepage": "https://github.com/alexander-elgin/ta-maxlength#readme"
+}
